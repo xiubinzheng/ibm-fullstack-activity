@@ -1,0 +1,35 @@
+<div layout="column" style="padding: 20px;">
+    <div layout="row" style="height: 400px;" ng-controller="dashboardCtrl">
+        <div flex>
+            <h2>Total daily pudding items sold</h2>
+
+            <div line-chart ng-model="lineChart"></div>
+        </div>
+        <div flex>
+        </div>
+    </div>
+    <p></p>
+    <div layout="row" style="height: 400px;" ng-controller="dashboardCtrl2">
+        <div flex>
+            <h2>Average daily pudding items sold per customer</h2>
+
+            <div line-chart ng-model="lineChart"></div>
+        </div>
+        <div flex>
+        </div>
+    </div>
+    <p></p>
+    <p></p>
+    <p></p>
+    <div layout="row" style="height: 400px;" ng-controller="dashboardCtrl3">
+        <div flex>
+            <h2>Dani total daily item sales
+            </h2>{{val1}}
+        </div>
+        <div flex>
+            <h2>Milki total daily item sales
+            </h2>{{val2}}
+
+        </div>
+    </div>
+</div>
