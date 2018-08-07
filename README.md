@@ -13,14 +13,20 @@ To start the application: npm start
 
 ## Guidance
 
-* Brauss have no time for database setup. So you will have to find a way to load in the data file. Feel free to change the file format, but the data column names and data values cannot be changed manually.
-* All data transformations or aggregations should occur on the server side.
-* The executives would like to see several line charts in the dashboard:
-1) Total daily pudding items sold
-2) Average daily pudding items sold per customer
-3) Total daily item sales, split into a line for each pudding item (Dani, Milki etc)
-* KEY FILES: dataAccessLayer.js, api.js, ui/states/dashboardCtrl.js, ui/states/dashboard.html
-* Please send a zipped project folder back to the CEO's assistant. He is tech savy and will know how to run the dashboard on his computer.
-* Provide some comments below about how this application should be better designed.
+- Brauss have no time for database setup. So you will have to find a way to load in the data file. Feel free to change the file format, but the data column names and data values cannot be changed manually.
+- All data transformations or aggregations should occur on the server side.
+- The executives would like to see several line charts in the dashboard:
+
+1.  Total daily pudding items sold
+2.  Average daily pudding items sold per customer
+3.  Total daily item sales, split into a line for each pudding item (Dani, Milki etc)
+
+- KEY FILES: dataAccessLayer.js, api.js, ui/states/dashboardCtrl.js, ui/states/dashboard.html
+- Please send a zipped project folder back to the CEO's assistant. He is tech savy and will know how to run the dashboard on his computer.
+- Provide some comments below about how this application should be better designed.
 
 Provide comments below:
+suggestion for improving design if given time:
+
+1.  add bootstrap for better UI.
+2.  Add database support, put data into actual database
